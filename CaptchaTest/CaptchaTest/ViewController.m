@@ -7,8 +7,11 @@
 //
 
 #import "ViewController.h"
+#import "AuthcodeView.h"
 
 @interface ViewController ()
+
+@property (nonatomic,retain) AuthcodeView *authCodeView;
 
 @end
 
@@ -17,8 +20,16 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    //显示验证码界面
+    self.authCodeView = [[AuthcodeView alloc] initWithFrame:CGRectMake(30, 100, 71, 32)];
+    [self.view addSubview:self.authCodeView];
 }
 
+- (IBAction)click:(UIButton *)sender {
+    
+    NSLog(@"authCodeStr ====== %@",self.authCodeView.authCodeStr);
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

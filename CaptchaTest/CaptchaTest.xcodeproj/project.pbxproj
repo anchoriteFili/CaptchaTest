@@ -15,6 +15,8 @@
 		FAB8148D1F3D845A00C00F6C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAB8148B1F3D845A00C00F6C /* LaunchScreen.storyboard */; };
 		FAB814981F3D845A00C00F6C /* CaptchaTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB814971F3D845A00C00F6C /* CaptchaTestTests.m */; };
 		FAB814A31F3D845A00C00F6C /* CaptchaTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB814A21F3D845A00C00F6C /* CaptchaTestUITests.m */; };
+		FAB814B21F3D84CA00C00F6C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAB814B11F3D84CA00C00F6C /* CoreGraphics.framework */; };
+		FAB814B51F3D84F100C00F6C /* AuthcodeView.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB814B41F3D84F100C00F6C /* AuthcodeView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,9 @@
 		FAB8149E1F3D845A00C00F6C /* CaptchaTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CaptchaTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAB814A21F3D845A00C00F6C /* CaptchaTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CaptchaTestUITests.m; sourceTree = "<group>"; };
 		FAB814A41F3D845A00C00F6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAB814B11F3D84CA00C00F6C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FAB814B31F3D84F100C00F6C /* AuthcodeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AuthcodeView.h; sourceTree = "<group>"; };
+		FAB814B41F3D84F100C00F6C /* AuthcodeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AuthcodeView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAB814B21F3D84CA00C00F6C /* CoreGraphics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +91,7 @@
 				FAB814961F3D845A00C00F6C /* CaptchaTestTests */,
 				FAB814A11F3D845A00C00F6C /* CaptchaTestUITests */,
 				FAB8147B1F3D845A00C00F6C /* Products */,
+				FAB814B01F3D84CA00C00F6C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +112,8 @@
 				FAB814811F3D845A00C00F6C /* AppDelegate.m */,
 				FAB814831F3D845A00C00F6C /* ViewController.h */,
 				FAB814841F3D845A00C00F6C /* ViewController.m */,
+				FAB814B31F3D84F100C00F6C /* AuthcodeView.h */,
+				FAB814B41F3D84F100C00F6C /* AuthcodeView.m */,
 				FAB814861F3D845A00C00F6C /* Main.storyboard */,
 				FAB814891F3D845A00C00F6C /* Assets.xcassets */,
 				FAB8148B1F3D845A00C00F6C /* LaunchScreen.storyboard */,
@@ -138,6 +147,14 @@
 				FAB814A41F3D845A00C00F6C /* Info.plist */,
 			);
 			path = CaptchaTestUITests;
+			sourceTree = "<group>";
+		};
+		FAB814B01F3D84CA00C00F6C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FAB814B11F3D84CA00C00F6C /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -274,6 +291,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FAB814851F3D845A00C00F6C /* ViewController.m in Sources */,
+				FAB814B51F3D84F100C00F6C /* AuthcodeView.m in Sources */,
 				FAB814821F3D845A00C00F6C /* AppDelegate.m in Sources */,
 				FAB8147F1F3D845A00C00F6C /* main.m in Sources */,
 			);
