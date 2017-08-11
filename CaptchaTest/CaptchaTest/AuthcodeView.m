@@ -8,16 +8,9 @@
 
 #import "AuthcodeView.h"
 
-#define kRandomColor  [UIColor colorWithRed:arc4random() % 256 / 256.0 green:arc4random() % 256 / 256.0 blue:arc4random() % 256 / 256.0 alpha:1.0];
-#define kLineCount 6
-#define kLineWidth 10.0
 #define kCharCount 4
 #define kFontSize [UIFont systemFontOfSize:18]
-
-
-
 @implementation AuthcodeView
-
 /*
 // Only override drawRect: if you perform custom drawing.
 // An empty implementation adversely affects performance during animation.
@@ -33,11 +26,9 @@
     {
         self.layer.borderWidth = 1; // 边框宽度
         self.layer.borderColor = [[UIColor darkGrayColor] CGColor];
-        
         self.layer.cornerRadius = 2.0f;
         self.layer.masksToBounds = YES;
         self.backgroundColor = [UIColor clearColor];
-        
         [self getAuthcode];//获得随机验证码
     }
     return self;
@@ -63,7 +54,6 @@
 - (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event
 {
     [self getAuthcode];
-    
     //setNeedsDisplay调用drawRect方法来实现view的绘制
     [self setNeedsDisplay];
 }
@@ -77,29 +67,21 @@
     
     CGSize cSize = [@"A" sizeWithAttributes:@{NSFontAttributeName:[UIFont systemFontOfSize:18]}];
     
-    int width = rect.size.width/text.length - cSize.width;
     int height = rect.size.height - cSize.height;
-    
     CGPoint point;
     
     //依次绘制每一个字符,可以设置显示的每个字符的字体大小、颜色、样式等
     float pX,pY;
     for ( int i = 0; i<text.length; i++)
     {
-        pX = arc4random() % width + rect.size.width/text.length * i;
-        pY = arc4random() % height;
+        pX = (rect.size.width-3)/text.length * i+3;
+        pY = arc4random() % (height-5) + 2.5;
         point = CGPointMake(pX, pY);
         
         unichar c = [text characterAtIndex:i];
         NSString *textC = [NSString stringWithFormat:@"%C", c];
-        
-        [textC drawAtPoint:point withAttributes:@{NSFontAttributeName:kFontSize}];
+        [textC drawAtPoint:point withAttributes:@{NSFontAttributeName:kFontSize,NSObliquenessAttributeName:@(0.5-(arc4random()%100)/100.0)}];
     }
-    
-    //调用drawRect：之前，系统会向栈中压入一个CGContextRef，调用UIGraphicsGetCurrentContext()会取栈顶的CGContextRef
-    CGContextRef context = UIGraphicsGetCurrentContext();
-    //设置线条宽度
-    CGContextSetLineWidth(context, kLineWidth);
 
 }
 
