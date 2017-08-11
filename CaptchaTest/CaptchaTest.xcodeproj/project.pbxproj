@@ -1,0 +1,532 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FAB8147F1F3D845A00C00F6C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB8147E1F3D845A00C00F6C /* main.m */; };
+		FAB814821F3D845A00C00F6C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB814811F3D845A00C00F6C /* AppDelegate.m */; };
+		FAB814851F3D845A00C00F6C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB814841F3D845A00C00F6C /* ViewController.m */; };
+		FAB814881F3D845A00C00F6C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAB814861F3D845A00C00F6C /* Main.storyboard */; };
+		FAB8148A1F3D845A00C00F6C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAB814891F3D845A00C00F6C /* Assets.xcassets */; };
+		FAB8148D1F3D845A00C00F6C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAB8148B1F3D845A00C00F6C /* LaunchScreen.storyboard */; };
+		FAB814981F3D845A00C00F6C /* CaptchaTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB814971F3D845A00C00F6C /* CaptchaTestTests.m */; };
+		FAB814A31F3D845A00C00F6C /* CaptchaTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB814A21F3D845A00C00F6C /* CaptchaTestUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FAB814941F3D845A00C00F6C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAB814721F3D845A00C00F6C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAB814791F3D845A00C00F6C;
+			remoteInfo = CaptchaTest;
+		};
+		FAB8149F1F3D845A00C00F6C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAB814721F3D845A00C00F6C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAB814791F3D845A00C00F6C;
+			remoteInfo = CaptchaTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FAB8147A1F3D845A00C00F6C /* CaptchaTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CaptchaTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAB8147E1F3D845A00C00F6C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FAB814801F3D845A00C00F6C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FAB814811F3D845A00C00F6C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FAB814831F3D845A00C00F6C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FAB814841F3D845A00C00F6C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FAB814871F3D845A00C00F6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FAB814891F3D845A00C00F6C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FAB8148C1F3D845A00C00F6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FAB8148E1F3D845A00C00F6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAB814931F3D845A00C00F6C /* CaptchaTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CaptchaTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAB814971F3D845A00C00F6C /* CaptchaTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CaptchaTestTests.m; sourceTree = "<group>"; };
+		FAB814991F3D845A00C00F6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAB8149E1F3D845A00C00F6C /* CaptchaTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CaptchaTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAB814A21F3D845A00C00F6C /* CaptchaTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CaptchaTestUITests.m; sourceTree = "<group>"; };
+		FAB814A41F3D845A00C00F6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAB814771F3D845A00C00F6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAB814901F3D845A00C00F6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAB8149B1F3D845A00C00F6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FAB814711F3D845A00C00F6C = {
+			isa = PBXGroup;
+			children = (
+				FAB8147C1F3D845A00C00F6C /* CaptchaTest */,
+				FAB814961F3D845A00C00F6C /* CaptchaTestTests */,
+				FAB814A11F3D845A00C00F6C /* CaptchaTestUITests */,
+				FAB8147B1F3D845A00C00F6C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FAB8147B1F3D845A00C00F6C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAB8147A1F3D845A00C00F6C /* CaptchaTest.app */,
+				FAB814931F3D845A00C00F6C /* CaptchaTestTests.xctest */,
+				FAB8149E1F3D845A00C00F6C /* CaptchaTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAB8147C1F3D845A00C00F6C /* CaptchaTest */ = {
+			isa = PBXGroup;
+			children = (
+				FAB814801F3D845A00C00F6C /* AppDelegate.h */,
+				FAB814811F3D845A00C00F6C /* AppDelegate.m */,
+				FAB814831F3D845A00C00F6C /* ViewController.h */,
+				FAB814841F3D845A00C00F6C /* ViewController.m */,
+				FAB814861F3D845A00C00F6C /* Main.storyboard */,
+				FAB814891F3D845A00C00F6C /* Assets.xcassets */,
+				FAB8148B1F3D845A00C00F6C /* LaunchScreen.storyboard */,
+				FAB8148E1F3D845A00C00F6C /* Info.plist */,
+				FAB8147D1F3D845A00C00F6C /* Supporting Files */,
+			);
+			path = CaptchaTest;
+			sourceTree = "<group>";
+		};
+		FAB8147D1F3D845A00C00F6C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FAB8147E1F3D845A00C00F6C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FAB814961F3D845A00C00F6C /* CaptchaTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				FAB814971F3D845A00C00F6C /* CaptchaTestTests.m */,
+				FAB814991F3D845A00C00F6C /* Info.plist */,
+			);
+			path = CaptchaTestTests;
+			sourceTree = "<group>";
+		};
+		FAB814A11F3D845A00C00F6C /* CaptchaTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FAB814A21F3D845A00C00F6C /* CaptchaTestUITests.m */,
+				FAB814A41F3D845A00C00F6C /* Info.plist */,
+			);
+			path = CaptchaTestUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAB814791F3D845A00C00F6C /* CaptchaTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAB814A71F3D845A00C00F6C /* Build configuration list for PBXNativeTarget "CaptchaTest" */;
+			buildPhases = (
+				FAB814761F3D845A00C00F6C /* Sources */,
+				FAB814771F3D845A00C00F6C /* Frameworks */,
+				FAB814781F3D845A00C00F6C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CaptchaTest;
+			productName = CaptchaTest;
+			productReference = FAB8147A1F3D845A00C00F6C /* CaptchaTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FAB814921F3D845A00C00F6C /* CaptchaTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAB814AA1F3D845A00C00F6C /* Build configuration list for PBXNativeTarget "CaptchaTestTests" */;
+			buildPhases = (
+				FAB8148F1F3D845A00C00F6C /* Sources */,
+				FAB814901F3D845A00C00F6C /* Frameworks */,
+				FAB814911F3D845A00C00F6C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAB814951F3D845A00C00F6C /* PBXTargetDependency */,
+			);
+			name = CaptchaTestTests;
+			productName = CaptchaTestTests;
+			productReference = FAB814931F3D845A00C00F6C /* CaptchaTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FAB8149D1F3D845A00C00F6C /* CaptchaTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAB814AD1F3D845A00C00F6C /* Build configuration list for PBXNativeTarget "CaptchaTestUITests" */;
+			buildPhases = (
+				FAB8149A1F3D845A00C00F6C /* Sources */,
+				FAB8149B1F3D845A00C00F6C /* Frameworks */,
+				FAB8149C1F3D845A00C00F6C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAB814A01F3D845A00C00F6C /* PBXTargetDependency */,
+			);
+			name = CaptchaTestUITests;
+			productName = CaptchaTestUITests;
+			productReference = FAB8149E1F3D845A00C00F6C /* CaptchaTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAB814721F3D845A00C00F6C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "赵宏亚";
+				TargetAttributes = {
+					FAB814791F3D845A00C00F6C = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					FAB814921F3D845A00C00F6C = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FAB814791F3D845A00C00F6C;
+					};
+					FAB8149D1F3D845A00C00F6C = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FAB814791F3D845A00C00F6C;
+					};
+				};
+			};
+			buildConfigurationList = FAB814751F3D845A00C00F6C /* Build configuration list for PBXProject "CaptchaTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FAB814711F3D845A00C00F6C;
+			productRefGroup = FAB8147B1F3D845A00C00F6C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAB814791F3D845A00C00F6C /* CaptchaTest */,
+				FAB814921F3D845A00C00F6C /* CaptchaTestTests */,
+				FAB8149D1F3D845A00C00F6C /* CaptchaTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAB814781F3D845A00C00F6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAB8148D1F3D845A00C00F6C /* LaunchScreen.storyboard in Resources */,
+				FAB8148A1F3D845A00C00F6C /* Assets.xcassets in Resources */,
+				FAB814881F3D845A00C00F6C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAB814911F3D845A00C00F6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAB8149C1F3D845A00C00F6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAB814761F3D845A00C00F6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAB814851F3D845A00C00F6C /* ViewController.m in Sources */,
+				FAB814821F3D845A00C00F6C /* AppDelegate.m in Sources */,
+				FAB8147F1F3D845A00C00F6C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAB8148F1F3D845A00C00F6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAB814981F3D845A00C00F6C /* CaptchaTestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAB8149A1F3D845A00C00F6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAB814A31F3D845A00C00F6C /* CaptchaTestUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FAB814951F3D845A00C00F6C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAB814791F3D845A00C00F6C /* CaptchaTest */;
+			targetProxy = FAB814941F3D845A00C00F6C /* PBXContainerItemProxy */;
+		};
+		FAB814A01F3D845A00C00F6C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAB814791F3D845A00C00F6C /* CaptchaTest */;
+			targetProxy = FAB8149F1F3D845A00C00F6C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FAB814861F3D845A00C00F6C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAB814871F3D845A00C00F6C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FAB8148B1F3D845A00C00F6C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAB8148C1F3D845A00C00F6C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FAB814A51F3D845A00C00F6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FAB814A61F3D845A00C00F6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FAB814A81F3D845A00C00F6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CaptchaTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lvyouquan.CaptchaTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FAB814A91F3D845A00C00F6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CaptchaTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lvyouquan.CaptchaTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FAB814AB1F3D845A00C00F6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CaptchaTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lvyouquan.CaptchaTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CaptchaTest.app/CaptchaTest";
+			};
+			name = Debug;
+		};
+		FAB814AC1F3D845A00C00F6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CaptchaTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lvyouquan.CaptchaTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CaptchaTest.app/CaptchaTest";
+			};
+			name = Release;
+		};
+		FAB814AE1F3D845A00C00F6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CaptchaTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lvyouquan.CaptchaTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CaptchaTest;
+			};
+			name = Debug;
+		};
+		FAB814AF1F3D845A00C00F6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CaptchaTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lvyouquan.CaptchaTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CaptchaTest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAB814751F3D845A00C00F6C /* Build configuration list for PBXProject "CaptchaTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAB814A51F3D845A00C00F6C /* Debug */,
+				FAB814A61F3D845A00C00F6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAB814A71F3D845A00C00F6C /* Build configuration list for PBXNativeTarget "CaptchaTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAB814A81F3D845A00C00F6C /* Debug */,
+				FAB814A91F3D845A00C00F6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FAB814AA1F3D845A00C00F6C /* Build configuration list for PBXNativeTarget "CaptchaTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAB814AB1F3D845A00C00F6C /* Debug */,
+				FAB814AC1F3D845A00C00F6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FAB814AD1F3D845A00C00F6C /* Build configuration list for PBXNativeTarget "CaptchaTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAB814AE1F3D845A00C00F6C /* Debug */,
+				FAB814AF1F3D845A00C00F6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FAB814721F3D845A00C00F6C /* Project object */;
+}
