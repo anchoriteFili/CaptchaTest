@@ -1,6 +1,6 @@
 //
 //  AuthcodeView.h
-//  CaptchaTest
+//  验证码生成view
 //
 //  Created by 赵宏亚 on 2017/8/11.
 //  Copyright © 2017年 赵宏亚. All rights reserved.
